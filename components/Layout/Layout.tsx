@@ -20,7 +20,9 @@ const Layout: FC<Props> = ({ metadata, children }) => {
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <main className={s.main}>{children}</main>
+      <main className={s.main}>
+        <div className={s.wrapper}>{children}</div>
+      </main>
     </>
   );
 };

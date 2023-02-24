@@ -1,1 +1,10 @@
-
+.main {
+  @apply w-screen h-screen flex justify-center items-center px-2;
+}
+.wrapper {
+  @apply border border-gray-200 rounded-sm p-4 w-full shadow-md;
+  @apply sm:max-w-[600px];
+  @apply md:max-w-[720px];
+  @apply lg:max-w-[980px];
+  @apply xl:max-w-[1200px];
+}
